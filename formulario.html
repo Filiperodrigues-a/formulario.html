@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<head>
+    <title>|Formulário
+
+    </title>
+</head>
+<body>
+    <h1>Formulário de Pesquisa de Satisfação</h1>
+    <form method="post" action="processar-pesquisa.html">
+<section>
+<h2>Dados Pessoais</h2>
+</section>
+<p>
+<label for="nome">Nome:</label>
+<input type="text" id="nome"/></p>
+<p>
+<label for="email">E-mail</label>
+<input type="email" id="email"/></p>
+<p>
+<label for="telefone">Telefone</label>
+<input type="tel" id="telefone"/></p>
+<section>
+
+<h2>Dados de Pesquisa</h2>
+<p>
+    Como foi o seu atendimento por nosso estabelecimento?
+    <input type="radio" id="1" name="atendimento"/>
+    <label for="1">1</label>
+
+    <input type="radio" id="2" name="atendimento"/>
+    <label for="2">2</label>
+
+    <input type="radio" id="3" name="atendimento"/>
+    <label for="3">3</label>
+
+    <input type="radio" id="4" name="atendimento"/>
+    <label for="4">4</label>
+
+    <input type="radio" id="5" name="atendimento"/>
+    <label for="5">5</label>
+</p>
+<p>
+    Qual a probabilidade de você indicar esse estabelecimento a um amigo?
+    <input type="radio" id="1" name="indicaçao"/>
+    <label for="1">1</label>
+
+    <input type="radio" id="2" name="indicaçao"/>
+    <label for="2">2</label>
+
+    <input type="radio" id="3" name="indicaçao"/>
+    <label for="3">3</label>
+
+    <input type="radio" id="4" name="indicaçao"/>
+    <label for="4">4</label>
+
+    <input type="radio" id="5" name="indicaçao"/>
+    <label for="5">5</label>
+</p>
+<label for="atendente">Nome do Atendente</label>
+<select>
+    <option>Raquel</option>
+    <option>Filipe</option>
+    <option>Rejane</option>
+    <option>Lucia</option>
+</select>
+<p>
+    <input type="checkbox" id="compartilhar dados"/>
+    <label for="compartilhar dados">Eu autorizo o compartilhamento de dados a terceiros.</label>
+</p>
+<input type="submit" value="Compartilhar Dados"/>
+</section>
+
+    </form>
+</body>
+
+</html>
